@@ -1,0 +1,143 @@
+{
+  "items": [
+    {
+      "id": "аметистовая-деталь",
+      "name": "Аметистовая деталь",
+      "image": "аметистовая-деталь.png",
+      "crafted_in": "Модуль штамповки",
+      "ingredients": {
+        "аметистовое-волокно": 1
+      },
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "аметистовая-руда",
+      "name": "Аметистовая руда",
+      "image": "аметистовая-руда.png",
+      "crafted_in": null,
+      "ingredients": {},
+      "batch_size": 1,
+      "craft_time": 1,
+      "is_ore": true
+    },
+    {
+      "id": "аметистовое-волокно",
+      "name": "Аметистовое волокно",
+      "image": "аметистовое-волокно.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "аметистовая-руда": 1
+      },
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "аметистовый-компонент",
+      "name": "Аметистовый компонент",
+      "image": "аметистовый-компонент.png",
+      "crafted_in": "Модуль снаряжения",
+      "ingredients": {
+        "аметистовое-волокно": 5,
+        "ориджеода": 10
+      },
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "молотая-ориджеода",
+      "name": "Молотая ориджеода",
+      "image": "молотая-ориджеода.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "ориджеода": 1
+      },
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-аметист",
+      "name": "Молотый аметист",
+      "image": "молотый-аметист.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "аметистовое-волокно": 1
+      },
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-ориджиний",
+      "name": "Молотый ориджиний",
+      "image": "молотый-ориджиний.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "ориджиниевая-руда": 1
+      },
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-феррий",
+      "name": "Молотый феррий",
+      "image": "молотый-феррий.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "феррий": 1
+      },
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "ориджеода",
+      "name": "Ориджеода",
+      "image": "ориджеода.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "ориджиниевая-руда": 1
+      },
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "ориджиниевая-руда",
+      "name": "Ориджиниевая руда",
+      "image": "ориджиниевая-руда.png",
+      "crafted_in": null,
+      "ingredients": {},
+      "batch_size": 1,
+      "craft_time": 1,
+      "is_ore": true
+    },
+    {
+      "id": "ферриевая-руда",
+      "name": "Ферриевая руда",
+      "image": "ферриевая-руда.png",
+      "crafted_in": null,
+      "ingredients": {},
+      "batch_size": 1,
+      "craft_time": 1,
+      "is_ore": true
+    },
+    {
+      "id": "феррий",
+      "name": "Феррий",
+      "image": "феррий.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "ферриевая-руда": 1
+      },
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    }
+  ]
+}

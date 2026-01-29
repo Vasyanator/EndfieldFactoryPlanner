@@ -1,0 +1,681 @@
+{
+  "items": [
+    {
+      "id": "акетин",
+      "name": "Акетин",
+      "image": "акетин.png",
+      "crafted_in": "Модуль посадки",
+      "ingredients": {
+        "семя-акетина": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "аметистовая-бутылка",
+      "name": "Аметистовая бутылка",
+      "image": "аметистовая-бутылка.png",
+      "crafted_in": "Модуль Формовки",
+      "ingredients": {
+        "аметистовое-волокно": 2
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "аметистовая-деталь",
+      "name": "Аметистовая деталь",
+      "image": "аметистовая-деталь.png",
+      "crafted_in": "Модуль штамповки",
+      "ingredients": {
+        "аметистовое-волокно": 1
+      },
+      "alt_recipes": [
+        {
+          "аметистовая-руда": 2
+        }
+      ],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "аметистовая-руда",
+      "name": "Аметистовая руда",
+      "image": "аметистовая-руда.png",
+      "crafted_in": null,
+      "ingredients": {},
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 1,
+      "is_ore": true
+    },
+    {
+      "id": "аметистовое-волокно",
+      "name": "Аметистовое волокно",
+      "image": "аметистовое-волокно.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "аметистовая-руда": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "аметистовый-компонент",
+      "name": "Аметистовый компонент",
+      "image": "аметистовый-компонент.png",
+      "crafted_in": "Модуль снаряжения",
+      "ingredients": {
+        "аметистовое-волокно": 5,
+        "ориджеода": 5
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "батарея-me-долины",
+      "name": "Батарея ME Долины",
+      "image": "батарея-me-долины.png",
+      "crafted_in": "Модуль упаковки",
+      "ingredients": {
+        "аметистовая-деталь": 5,
+        "молотый-ориджиний": 10
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "батарея-ве-долины",
+      "name": "Батарея ВЕ Долины",
+      "image": "батарея-ве-долины.png",
+      "crafted_in": "Модуль упаковки",
+      "ingredients": {
+        "мелкомолотый-ориджиний": 15,
+        "стальная-деталь": 10
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "батарея-се-долины",
+      "name": "Батарея СЕ Долины",
+      "image": "батарея-се-долины.png",
+      "crafted_in": "Модуль упаковки",
+      "ingredients": {
+        "молотый-ориджиний": 15,
+        "ферриевая-деталь": 10
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "гречекапсула-b",
+      "name": "Гречекапсула B",
+      "image": "гречекапсула-b.png",
+      "crafted_in": "Модуль наполнения",
+      "ingredients": {
+        "молотый-гречецвет": 10,
+        "ферриевая-бутылка": 10
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "гречекапсула-а",
+      "name": "Гречекапсула А",
+      "image": "гречекапсула-а.png",
+      "crafted_in": "Модуль наполнения",
+      "ingredients": {
+        "мелкомолотый-гречецвет": 10,
+        "стальная-бутылка": 10
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "гречекапсула-с",
+      "name": "Гречекапсула С",
+      "image": "гречекапсула-с.png",
+      "crafted_in": "Модуль наполнения",
+      "ingredients": {
+        "аметистовая-бутылка": 5,
+        "молотый-гречецвет": 5
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "гречецвет",
+      "name": "Гречецвет",
+      "image": "гречецвет.png",
+      "crafted_in": "Модуль посадки",
+      "ingredients": {
+        "семя-гречецвета": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "кристоновая-бутылка",
+      "name": "Кристоновая бутылка",
+      "image": "кристоновая-бутылка.png",
+      "crafted_in": "Модуль Формовки",
+      "ingredients": {
+        "кристоновое-волокно": 2
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "кристоновая-деталь",
+      "name": "Кристоновая деталь",
+      "image": "кристоновая-деталь.png",
+      "crafted_in": "Модуль штамповки",
+      "ingredients": {
+        "кристоновое-волокно": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "кристоновое-волокно",
+      "name": "Кристоновое волокно",
+      "image": "кристоновое-волокно.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "молотый-кристон": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "кристоновый-компонент",
+      "name": "Кристоновый компонент",
+      "image": "кристоновый-компонент.png",
+      "crafted_in": "Модуль снаряжения",
+      "ingredients": {
+        "кристоновое-волокно": 10,
+        "уплотненная-ориджеода": 10
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "мелкомолотая-ориджеода",
+      "name": "Мелкомолотая ориджеода",
+      "image": "мелкомолотая-ориджеода.png",
+      "crafted_in": "Модуль измельчения",
+      "ingredients": {
+        "молотая-ориджеода": 2,
+        "молотый-песчанолист": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "мелкомолотый-гречецвет",
+      "name": "Мелкомолотый гречецвет",
+      "image": "мелкомолотый-гречецвет.png",
+      "crafted_in": "Модуль измельчения",
+      "ingredients": {
+        "молотый-гречецвет": 2,
+        "молотый-песчанолист": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "мелкомолотый-ориджиний",
+      "name": "Мелкомолотый ориджиний",
+      "image": "мелкомолотый-ориджиний.png",
+      "crafted_in": "Модуль измельчения",
+      "ingredients": {
+        "молотый-ориджиний": 2,
+        "молотый-песчанолист": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "мелкомолотый-углерод",
+      "name": "Мелкомолотый углерод",
+      "image": "мелкомолотый-углерод.png",
+      "crafted_in": "Модуль измельчения",
+      "ingredients": {
+        "молотый-песчанолист": 1,
+        "молотый-углерод": 2
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "мелкомолотый-феррий",
+      "name": "Мелкомолотый феррий",
+      "image": "мелкомолотый-феррий.png",
+      "crafted_in": "Модуль измельчения",
+      "ingredients": {
+        "молотый-песчанолист": 1,
+        "молотый-феррий": 2
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотая-ориджеода",
+      "name": "Молотая ориджеода",
+      "image": "молотая-ориджеода.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "ориджеода": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-акетин",
+      "name": "Молотый акетин",
+      "image": "молотый-акетин.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "акетин": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 2,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-аметист",
+      "name": "Молотый аметист",
+      "image": "молотый-аметист.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "аметистовое-волокно": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-гречецвет",
+      "name": "Молотый гречецвет",
+      "image": "молотый-гречецвет.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "гречецвет": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 2,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-кристон",
+      "name": "Молотый кристон",
+      "image": "молотый-кристон.png",
+      "crafted_in": "Модуль измельчения",
+      "ingredients": {
+        "молотый-аметист": 2,
+        "молотый-песчанолист": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-ориджиний",
+      "name": "Молотый ориджиний",
+      "image": "молотый-ориджиний.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "ориджиниевая-руда": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-песчанолист",
+      "name": "Молотый песчанолист",
+      "image": "молотый-песчанолист.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "песчанолист": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 3,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-углерод",
+      "name": "Молотый углерод",
+      "image": "молотый-углерод.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "углерод": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 2,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "молотый-феррий",
+      "name": "Молотый феррий",
+      "image": "молотый-феррий.png",
+      "crafted_in": "Модуль перемалывания",
+      "ingredients": {
+        "феррий": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "ориджеода",
+      "name": "Ориджеода",
+      "image": "ориджеода.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "ориджиниевая-руда": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "ориджиниевая-руда",
+      "name": "Ориджиниевая руда",
+      "image": "ориджиниевая-руда.png",
+      "crafted_in": null,
+      "ingredients": {},
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 1,
+      "is_ore": true
+    },
+    {
+      "id": "песчанолист",
+      "name": "Песчанолист",
+      "image": "песчанолист.png",
+      "crafted_in": "Модуль посадки",
+      "ingredients": {
+        "семя-песчанолиста": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "промышленная-взрывчатка",
+      "name": "Промышленная взрывчатка",
+      "image": "промышленная-взрывчатка.png",
+      "crafted_in": "Модуль упаковки",
+      "ingredients": {
+        "аметистовая-деталь": 5,
+        "молотый-акетин": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "семя-акетина",
+      "name": "Семя акетина",
+      "image": "семя-акетина.png",
+      "crafted_in": "Модуль сбора семян",
+      "ingredients": {
+        "акетин": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 2,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "семя-гречецвета",
+      "name": "Семя гречецвета",
+      "image": "семя-гречецвета.png",
+      "crafted_in": "Модуль сбора семян",
+      "ingredients": {
+        "гречецвет": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 2,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "семя-песчанолиста",
+      "name": "Семя песчанолиста",
+      "image": "семя-песчанолиста.png",
+      "crafted_in": "Модуль сбора семян",
+      "ingredients": {
+        "песчанолист": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 2,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "семя-цитрома",
+      "name": "Семя цитрома",
+      "image": "семя-цитрома.png",
+      "crafted_in": "Модуль сбора семян",
+      "ingredients": {
+        "цитром": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 2,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "стабилизированный-углерод",
+      "name": "Стабилизированный углерод",
+      "image": "стабилизированный-углерод.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "мелкомолотый-углерод": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "сталь",
+      "name": "Сталь",
+      "image": "сталь.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "мелкомолотый-феррий": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "стальная-бутылка",
+      "name": "Стальная бутылка",
+      "image": "стальная-бутылка.png",
+      "crafted_in": "Модуль Формовки",
+      "ingredients": {
+        "сталь": 2
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "стальная-деталь",
+      "name": "Стальная деталь",
+      "image": "стальная-деталь.png",
+      "crafted_in": "Модуль штамповки",
+      "ingredients": {
+        "сталь": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "углерод",
+      "name": "Углерод",
+      "image": "углерод.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "гречецвет": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "уплотненная-ориджеода",
+      "name": "Уплотненная ориджеода",
+      "image": "уплотненная-ориджеода.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "мелкомолотая-ориджеода": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "ферриевая-бутылка",
+      "name": "Ферриевая бутылка",
+      "image": "ферриевая-бутылка.png",
+      "crafted_in": "Модуль Формовки",
+      "ingredients": {
+        "феррий": 2
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "ферриевая-деталь",
+      "name": "Ферриевая деталь",
+      "image": "ферриевая-деталь.png",
+      "crafted_in": "Модуль штамповки",
+      "ingredients": {
+        "феррий": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "ферриевая-руда",
+      "name": "Ферриевая руда",
+      "image": "ферриевая-руда.png",
+      "crafted_in": null,
+      "ingredients": {},
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 1,
+      "is_ore": true
+    },
+    {
+      "id": "ферриевый-компонент",
+      "name": "Ферриевый компонент",
+      "image": "ферриевый-компонент.png",
+      "crafted_in": "Модуль снаряжения",
+      "ingredients": {
+        "ориджеода": 10,
+        "феррий": 10
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false
+    },
+    {
+      "id": "феррий",
+      "name": "Феррий",
+      "image": "феррий.png",
+      "crafted_in": "Модуль очистки",
+      "ingredients": {
+        "ферриевая-руда": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    },
+    {
+      "id": "цитром",
+      "name": "Цитром",
+      "image": "цитром.png",
+      "crafted_in": "Модуль посадки",
+      "ingredients": {
+        "семя-цитрома": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false
+    }
+  ]
+}

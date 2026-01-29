@@ -1,0 +1,64 @@
+{
+  "buildings": [
+    {
+      "id": "модуль-очистки",
+      "name": "Модуль очистки",
+      "image": "модуль-очистки.png",
+      "ingredients": {
+        "ориджиниевая-руда": 5
+      },
+      "is_factory": true,
+      "energy_use": 5,
+      "size_w": 3,
+      "size_h": 3
+    },
+    {
+      "id": "модуль-перемалывания",
+      "name": "Модуль перемалывания",
+      "image": "модуль-перемалывания.png",
+      "ingredients": {
+        "ориджеода": 5
+      },
+      "is_factory": true,
+      "energy_use": 5,
+      "size_w": 3,
+      "size_h": 3
+    },
+    {
+      "id": "модуль-снаряжения",
+      "name": "Модуль снаряжения",
+      "image": "модуль-снаряжения.png",
+      "ingredients": {
+        "ориджеода": 10
+      },
+      "is_factory": true,
+      "energy_use": 10,
+      "size_w": 6,
+      "size_h": 4
+    },
+    {
+      "id": "модуль-формовки",
+      "name": "Модуль Формовки",
+      "image": "модуль-формовки.png",
+      "ingredients": {
+        "ориджеода": 10
+      },
+      "is_factory": true,
+      "energy_use": 20,
+      "size_w": 3,
+      "size_h": 3
+    },
+    {
+      "id": "модуль-штамповки",
+      "name": "Модуль штамповки",
+      "image": "модуль-штамповки.png",
+      "ingredients": {
+        "ориджеода": 10
+      },
+      "is_factory": true,
+      "energy_use": 20,
+      "size_w": 3,
+      "size_h": 3
+    }
+  ]
+}
