@@ -11,7 +11,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "аметистовая-бутылка",
@@ -24,7 +25,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "аметистовая-деталь",
@@ -41,7 +43,8 @@
       ],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "аметистовая-руда",
@@ -52,7 +55,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 1,
-      "is_ore": true
+      "is_ore": true,
+      "is_liquid": false
     },
     {
       "id": "аметистовое-волокно",
@@ -65,7 +69,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "аметистовый-компонент",
@@ -79,7 +84,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "батарея-me-долины",
@@ -93,7 +99,23 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
+    },
+    {
+      "id": "батарея-me-улина",
+      "name": "Батарея ME Улина",
+      "image": "батарея-me-улина.png",
+      "crafted_in": "Модуль упаковки",
+      "ingredients": {
+        "ксиранит": 5,
+        "мелкомолотый-ориджиний": 15
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "батарея-ве-долины",
@@ -107,7 +129,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "батарея-се-долины",
@@ -121,7 +144,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "гречекапсула-b",
@@ -135,7 +159,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "гречекапсула-а",
@@ -149,7 +174,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "гречекапсула-с",
@@ -163,7 +189,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "гречецвет",
@@ -176,7 +203,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "кристоновая-бутылка",
@@ -189,7 +217,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "кристоновая-деталь",
@@ -202,7 +231,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "кристоновое-волокно",
@@ -215,7 +245,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "кристоновый-компонент",
@@ -229,7 +260,38 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
+    },
+    {
+      "id": "ксиранит",
+      "name": "Ксиранит",
+      "image": "ксиранит.png",
+      "crafted_in": "Небесная кузница",
+      "ingredients": {
+        "стабилизированный-углерод": 2,
+        "чистая-вода": 1
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 2,
+      "is_ore": false,
+      "is_liquid": false
+    },
+    {
+      "id": "ксиранитовый-компонент",
+      "name": "Ксиранитовый компонент",
+      "image": "ксиранитовый-компонент.png",
+      "crafted_in": "Модуль снаряжения",
+      "ingredients": {
+        "ксиранит": 10,
+        "уплотненная-ориджеода": 10
+      },
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 10,
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "мелкомолотая-ориджеода",
@@ -243,7 +305,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "мелкомолотый-гречецвет",
@@ -257,7 +320,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "мелкомолотый-ориджиний",
@@ -271,7 +335,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "мелкомолотый-углерод",
@@ -285,7 +350,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "мелкомолотый-феррий",
@@ -299,7 +365,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "молотая-ориджеода",
@@ -312,7 +379,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "молотый-акетин",
@@ -325,7 +393,8 @@
       "alt_recipes": [],
       "batch_size": 2,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "молотый-аметист",
@@ -338,7 +407,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "молотый-гречецвет",
@@ -351,7 +421,8 @@
       "alt_recipes": [],
       "batch_size": 2,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "молотый-кристон",
@@ -365,7 +436,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "молотый-ориджиний",
@@ -378,7 +450,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "молотый-песчанолист",
@@ -391,7 +464,8 @@
       "alt_recipes": [],
       "batch_size": 3,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "молотый-углерод",
@@ -404,7 +478,8 @@
       "alt_recipes": [],
       "batch_size": 2,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "молотый-феррий",
@@ -417,7 +492,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "ориджеода",
@@ -430,7 +506,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "ориджиниевая-руда",
@@ -441,7 +518,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 1,
-      "is_ore": true
+      "is_ore": true,
+      "is_liquid": false
     },
     {
       "id": "песчанолист",
@@ -454,7 +532,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "промышленная-взрывчатка",
@@ -468,7 +547,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "семя-акетина",
@@ -481,7 +561,8 @@
       "alt_recipes": [],
       "batch_size": 2,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "семя-гречецвета",
@@ -494,7 +575,8 @@
       "alt_recipes": [],
       "batch_size": 2,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "семя-песчанолиста",
@@ -507,7 +589,8 @@
       "alt_recipes": [],
       "batch_size": 2,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "семя-цитрома",
@@ -520,7 +603,8 @@
       "alt_recipes": [],
       "batch_size": 2,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "стабилизированный-углерод",
@@ -533,7 +617,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "сталь",
@@ -546,7 +631,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "стальная-бутылка",
@@ -559,7 +645,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "стальная-деталь",
@@ -572,7 +659,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "углерод",
@@ -585,7 +673,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "уплотненная-ориджеода",
@@ -598,7 +687,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "ферриевая-бутылка",
@@ -611,7 +701,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "ферриевая-деталь",
@@ -624,7 +715,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "ферриевая-руда",
@@ -635,7 +727,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 1,
-      "is_ore": true
+      "is_ore": true,
+      "is_liquid": false
     },
     {
       "id": "ферриевый-компонент",
@@ -649,7 +742,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 10,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "феррий",
@@ -662,7 +756,8 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
     },
     {
       "id": "цитром",
@@ -675,7 +770,20 @@
       "alt_recipes": [],
       "batch_size": 1,
       "craft_time": 2,
-      "is_ore": false
+      "is_ore": false,
+      "is_liquid": false
+    },
+    {
+      "id": "чистая-вода",
+      "name": "Чистая вода",
+      "image": "чистая-вода.png",
+      "crafted_in": null,
+      "ingredients": {},
+      "alt_recipes": [],
+      "batch_size": 1,
+      "craft_time": 1,
+      "is_ore": true,
+      "is_liquid": true
     }
   ]
 }
